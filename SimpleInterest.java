@@ -1,4 +1,4 @@
-//printing the Simple Interest
+//calculating the Simple Interest
 import java.util.Scanner;
 public class SimpleInterest {
     public static void main(String[] args){
