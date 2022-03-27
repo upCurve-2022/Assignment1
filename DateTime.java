@@ -3,7 +3,6 @@ import java.util.*;
 import java.time.*;
 public class DateTime {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
         Date date_Time=new Date();
         System.out.println("Current date and time:"+date_Time);
         System.out.println("Current date and time:"+LocalDateTime.now());
