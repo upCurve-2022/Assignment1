@@ -117,7 +117,7 @@ class T1 implements Runnable{
 }
 class T2 implements Runnable{
     PizzaShop o;
-    String s2[]={"customer@1:Hii,I want peri peri fries with mocktail","customer@1:Thank you","customer@1:customer is waiting","customer@1:customer enjoys the food"};
+    String s2[]={"customer@1:Hii,I want Margherita Pizza with mocktail","customer@1:Thank you","customer@1:customer is waiting","customer@1:customer enjoys the food"};
     public T2(PizzaShop o2){
         this.o=o2;
         new Thread(this,"customerAtCount1").start();
@@ -160,7 +160,7 @@ class T3 implements Runnable{
 }
 class T4 implements Runnable{
     PizzaShop o;
-    String s4[]={"customer@2:Hii,I want White sauce pasta with coke","customer@2:Thank you","customer@2:customer is waiting","customer@2:customer enjoys the food"};
+    String s4[]={"customer@2:Hii,I want Pepperoni Pizza with coke","customer@2:Thank you","customer@2:customer is waiting","customer@2:customer enjoys the food"};
     public T4(PizzaShop o4){
         this.o=o4;
         new Thread(this,"customerAtCount2").start();
@@ -202,7 +202,7 @@ class T5 implements Runnable{
 }
 class T6 implements Runnable{
     PizzaShop o;
-    String s6[]={"customer@3:Hii,I want chicken sandwich","customer@3:Thank you","customer@3:customer is waiting","customer@3:customer enjoys the food"};
+    String s6[]={"customer@3:Hii,I want BBQ Chicken Pizza","customer@3:Thank you","customer@3:customer is waiting","customer@3:customer enjoys the food"};
     public T6(PizzaShop o6){
         this.o=o6;
         new Thread(this,"customerAtCount1").start();
