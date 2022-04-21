@@ -21,11 +21,11 @@ public class BinarySearch {
         int mid=(low+high)/2;
         while(low<=high){
           if(arr[mid]>key){
-               low=mid+1;
+               high=mid-1;
                mid=(low+high)/2;
           }
           else if(arr[mid]<key){
-              high=mid+1;
+              low=mid+1;
               mid=(low+high)/2;
             }
           else if(arr[mid]==key){
